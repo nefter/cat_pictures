@@ -7,7 +7,27 @@ class TestCatPictures < Minitest::Test
     refute_nil ::CatPictures::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_fetch_all_images
+    # assert_instance_of Array, CatPictures.images
+    assert_instance_of Hash, CatPictures.images
   end
+  def test_fetch_all_breeds
+    assert_instance_of Array, CatPictures.breeds
+    assert_instance_of Hash, CatPictures.breeds.first
+  end
+  def test_fetch_all_categories
+    assert_instance_of Array, CatPictures.categories
+    assert_instance_of Hash, CatPictures.categories.first
+  end
+  
+  # def test_fetch_all_votes
+  #   assert_instance_of Array, CatPictures.votes
+  #   assert_instance_of Hash, CatPictures.votes.first
+  # end
+  # def test_fetch_all_favourites
+  #   assert_instance_of Array, CatPictures.favourites
+  #   assert_instance_of Hash, CatPictures.favourites.first
+  # end
+
+
 end

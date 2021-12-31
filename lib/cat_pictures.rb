@@ -1,8 +1,38 @@
 # frozen_string_literal: true
-
 require_relative "cat_pictures/version"
+require_relative "cat_pictures/client"
 
 module CatPictures
   class Error < StandardError; end
-  # Your code goes here...
+  class ClientError < Error; end
+  class ServerError < Error; end
+
+  def self.images
+    [{}]
+  end
+  
+  def self.images(id)
+    {}
+  end
+
+  def self.breeds
+    [{}]
+  end
+
+  def self.breeds(id)
+    {}
+  end
+
+  def self.categories
+    [{}]
+  end
+  
+  # def self.votes
+  #   [{}]
+  # end
+  
+  # def self.favourites
+  #   [{}]
+  # end
+
 end
