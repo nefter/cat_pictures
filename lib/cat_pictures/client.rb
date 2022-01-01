@@ -50,9 +50,9 @@ module CatPictures
       when Net::HTTPSuccess
         parse_json(request.body)
       when Net::HTTPClientError
-        raise ClientError, "[#{request.code}] Client error"
+        raise ClientError, "[#{request.code}]#{request.class}"
       when Net::HTTPServerError
-        raise ServerError, "[#{request.code}] Server error"
+        raise ServerError, "[#{request.code}]#{request.class}"
       end
     end
 
