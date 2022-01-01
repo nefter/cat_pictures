@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require_relative "cat_pictures/version"
 require_relative "cat_pictures/client"
 
@@ -10,8 +11,8 @@ module CatPictures
   def self.images
     [{}]
   end
-  
-  def self.image(id)
+
+  def self.image(_id)
     {}
   end
 
@@ -19,7 +20,7 @@ module CatPictures
     [{}]
   end
 
-  def self.breed(id)
+  def self.breed(_id)
     {}
   end
 
@@ -27,16 +28,15 @@ module CatPictures
     [{}]
   end
 
-  def self.category(id)
+  def self.category(_id)
     {}
   end
-  
+
   # def self.votes
   #   [{}]
   # end
-  
+
   # def self.favourites
   #   [{}]
   # end
-
 end
