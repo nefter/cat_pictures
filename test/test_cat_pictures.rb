@@ -6,10 +6,9 @@ class TestCatPictures < Minitest::Test
   def test_that_it_has_a_version_number
     refute_nil ::CatPictures::VERSION
   end
-
-  def test_fetch_all_images
-    # assert_instance_of Array, CatPictures.images
-    assert_instance_of Hash, CatPictures.images
+  def test_fetch_all_pictures
+    assert_instance_of Array, CatPictures.images
+    assert_instance_of Hash, CatPictures.images.first
   end
   def test_fetch_all_breeds
     assert_instance_of Array, CatPictures.breeds

@@ -54,7 +54,7 @@ module CatPictures
             end
         end
 
-        def parse_json(content)
+        def parse_json(content, symbolize_names: true)
         JSON.parse(content)
         rescue JSON::ParserError
         nil

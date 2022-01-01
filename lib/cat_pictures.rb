@@ -11,7 +11,7 @@ module CatPictures
     [{}]
   end
   
-  def self.images(id)
+  def self.image(id)
     {}
   end
 
@@ -19,12 +19,16 @@ module CatPictures
     [{}]
   end
 
-  def self.breeds(id)
+  def self.breed(id)
     {}
   end
 
   def self.categories
     [{}]
+  end
+
+  def self.category(id)
+    {}
   end
   
   # def self.votes
