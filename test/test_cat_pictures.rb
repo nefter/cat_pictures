@@ -8,19 +8,21 @@ class TestCatPictures < Minitest::Test
   end
 
   def test_fetch_all_pictures
-    assert_instance_of Array, CatPictures.images
-    assert_instance_of Hash, CatPictures.images.first
+    VCR.use_cassette("get_all") do
+      assert_instance_of Array, CatPictures.images
+      assert_instance_of Array, CatPictures.images.first
+    end
   end
 
-  def test_fetch_all_breeds
-    assert_instance_of Array, CatPictures.breeds
-    assert_instance_of Hash, CatPictures.breeds.first
-  end
+  # def test_fetch_all_breeds
+  #   assert_instance_of Array, CatPictures.breeds
+  #   assert_instance_of Hash, CatPictures.breeds.first
+  # end
 
-  def test_fetch_all_categories
-    assert_instance_of Array, CatPictures.categories
-    assert_instance_of Hash, CatPictures.categories.first
-  end
+  # def test_fetch_all_categories
+  #   assert_instance_of Array, CatPictures.categories
+  #   assert_instance_of Hash, CatPictures.categories.first
+  # end
 
   # def test_fetch_all_votes
   #   assert_instance_of Array, CatPictures.votes

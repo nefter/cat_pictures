@@ -1,0 +1,1130 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:08 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 63ms
+      X-Cloud-Trace-Context:
+      - 202c1839857d6b67584dd33a5fd40bd5
+      Date:
+      - Tue, 04 Jan 2022 16:55:08 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"9gp","url":"https://cdn2.thecatapi.com/images/9gp.jpg","width":600,"height":600}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:08 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:09 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 68ms
+      X-Cloud-Trace-Context:
+      - 2eb32f87cd3059bcdf0c48e68ab39726
+      Date:
+      - Tue, 04 Jan 2022 16:55:09 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"cin","url":"https://cdn2.thecatapi.com/images/cin.gif","width":240,"height":320}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:09 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:09 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 71ms
+      X-Cloud-Trace-Context:
+      - 2a3bf06937a38c9875858582b0279309
+      Date:
+      - Tue, 04 Jan 2022 16:55:09 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"6c5","url":"https://cdn2.thecatapi.com/images/6c5.gif","width":180,"height":144}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:09 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:09 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 64ms
+      X-Cloud-Trace-Context:
+      - 13e6a51679a2271ba0ac5cbcd63b40c8
+      Date:
+      - Tue, 04 Jan 2022 16:55:09 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"efk","url":"https://cdn2.thecatapi.com/images/efk.jpg","width":500,"height":334}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:09 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:09 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 66ms
+      X-Cloud-Trace-Context:
+      - 1df40324aad0f1a18e11950704afe229
+      Date:
+      - Tue, 04 Jan 2022 16:55:09 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '143'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"categories":[{"id":6,"name":"caturday"}],"id":"3td","url":"https://cdn2.thecatapi.com/images/3td.jpg","width":449,"height":600}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:09 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:09 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 67ms
+      X-Cloud-Trace-Context:
+      - cf4bd573202f1e2fab8706c7335ceb59
+      Date:
+      - Tue, 04 Jan 2022 16:55:09 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '1217'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[{"weight":{"imperial":"8 - 25","metric":"4 - 11"},"id":"sava","name":"Savannah","vetstreet_url":"http://www.vetstreet.com/cats/savannah","temperament":"Curious,
+        Social, Intelligent, Loyal, Outgoing, Adventurous, Affectionate","origin":"United
+        States","country_codes":"US","country_code":"US","description":"Savannah is
+        the feline version of a dog. Actively seeking social interaction, they are
+        given to pouting if left out. Remaining kitten-like through life. Profoundly
+        loyal to immediate family members whilst questioning the presence of strangers.
+        Making excellent companions that are loyal, intelligent and eager to be involved.","life_span":"17
+        - 20","indoor":0,"alt_names":"","adaptability":5,"affection_level":5,"child_friendly":4,"dog_friendly":5,"energy_level":5,"grooming":1,"health_issues":1,"intelligence":5,"shedding_level":3,"social_needs":5,"stranger_friendly":5,"vocalisation":1,"experimental":1,"hairless":0,"natural":0,"rare":0,"rex":0,"suppressed_tail":0,"short_legs":0,"wikipedia_url":"https://en.wikipedia.org/wiki/Savannah_cat","hypoallergenic":0,"reference_image_id":"a8nIYvs6S"}],"id":"yKXeUMNZ8","url":"https://cdn2.thecatapi.com/images/yKXeUMNZ8.jpg","width":1080,"height":1350}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:09 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:09 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 68ms
+      X-Cloud-Trace-Context:
+      - d4e803e1a33a114e18c7bad0da9f1080
+      Date:
+      - Tue, 04 Jan 2022 16:55:09 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '144'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"categories":[{"id":15,"name":"clothes"}],"id":"8tk","url":"https://cdn2.thecatapi.com/images/8tk.jpg","width":960,"height":1280}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:09 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:10 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 69ms
+      X-Cloud-Trace-Context:
+      - 40e5f751a25f7d6d76cdda60705938ff
+      Date:
+      - Tue, 04 Jan 2022 16:55:10 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"e6v","url":"https://cdn2.thecatapi.com/images/e6v.jpg","width":500,"height":748}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:10 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:10 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 76ms
+      X-Cloud-Trace-Context:
+      - 7a4549a848f4b1c2966c969476e71650
+      Date:
+      - Tue, 04 Jan 2022 16:55:10 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '116'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"MTU5MDA2Nw","url":"https://cdn2.thecatapi.com/images/MTU5MDA2Nw.png","width":768,"height":1024}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:10 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:10 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 68ms
+      X-Cloud-Trace-Context:
+      - 186dae55b1f06ab90011acc360f8f19c
+      Date:
+      - Tue, 04 Jan 2022 16:55:10 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '113'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"Io413g9PQ","url":"https://cdn2.thecatapi.com/images/Io413g9PQ.jpg","width":370,"height":281}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:10 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:10 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 67ms
+      X-Cloud-Trace-Context:
+      - 84d49a8ae49f233a82e0d33bb4344e8e
+      Date:
+      - Tue, 04 Jan 2022 16:55:10 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"e5h","url":"https://cdn2.thecatapi.com/images/e5h.jpg","width":450,"height":424}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:10 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:10 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 65ms
+      X-Cloud-Trace-Context:
+      - bbbf36b7b0a966a0464e675fd7d3d645
+      Date:
+      - Tue, 04 Jan 2022 16:55:10 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"7ds","url":"https://cdn2.thecatapi.com/images/7ds.jpg","width":500,"height":334}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:10 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:10 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 67ms
+      X-Cloud-Trace-Context:
+      - f6b5e3eae491d0cf89475fb64c27fa97
+      Date:
+      - Tue, 04 Jan 2022 16:55:11 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"bvf","url":"https://cdn2.thecatapi.com/images/bvf.jpg","width":640,"height":480}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:11 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:11 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 67ms
+      X-Cloud-Trace-Context:
+      - e9c3ba8561cecbc3689cdc32c652e1ea
+      Date:
+      - Tue, 04 Jan 2022 16:55:11 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '113'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"V1s6_ABLJ","url":"https://cdn2.thecatapi.com/images/V1s6_ABLJ.jpg","width":650,"height":867}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:11 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:11 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 67ms
+      X-Cloud-Trace-Context:
+      - 623a5400a930005f52775bac09853e6b
+      Date:
+      - Tue, 04 Jan 2022 16:55:11 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '113'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"n3HKiw54e","url":"https://cdn2.thecatapi.com/images/n3HKiw54e.png","width":264,"height":181}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:11 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:11 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 69ms
+      X-Cloud-Trace-Context:
+      - a176bf2776ec520dcafd36d76e190d16
+      Date:
+      - Tue, 04 Jan 2022 16:55:11 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '113'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"Yx_ZtuiBY","url":"https://cdn2.thecatapi.com/images/Yx_ZtuiBY.png","width":524,"height":349}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:11 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:11 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 64ms
+      X-Cloud-Trace-Context:
+      - 5901b9b2add2eb32486018f0ca08e299
+      Date:
+      - Tue, 04 Jan 2022 16:55:11 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '101'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"a65","url":"https://cdn2.thecatapi.com/images/a65.jpg","width":500,"height":374}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:11 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:11 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 64ms
+      X-Cloud-Trace-Context:
+      - 16b75ce4ec651cfcb48f7f29ee09f0db
+      Date:
+      - Tue, 04 Jan 2022 16:55:11 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '115'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"YXXVN6eDe","url":"https://cdn2.thecatapi.com/images/YXXVN6eDe.jpg","width":1200,"height":1200}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:11 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:11 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 74ms
+      X-Cloud-Trace-Context:
+      - 339a242d6f5f96e58a5e6e5a85330a33
+      Date:
+      - Tue, 04 Jan 2022 16:55:12 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '113'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"E4hEJOT-n","url":"https://cdn2.thecatapi.com/images/E4hEJOT-n.jpg","width":800,"height":600}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:12 GMT
+- request:
+    method: get
+    uri: https://api.thecatapi.com/v1/images/search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.thecatapi.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Vary:
+      - Origin
+      Expires:
+      - Tue, 03 Jul 2001 06:00:00 GMT
+      Last-Modified:
+      - Tue Jan 04 2022 16:55:12 GMT+0000 (Coordinated Universal Time)
+      Cache-Control:
+      - post-check=0, pre-check=0
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Response-Time:
+      - 67ms
+      X-Cloud-Trace-Context:
+      - 41c0347ac9f5f1eead3c2632e2e1e27c
+      Date:
+      - Tue, 04 Jan 2022 16:55:12 GMT
+      Server:
+      - Google Frontend
+      Content-Length:
+      - '116'
+    body:
+      encoding: UTF-8
+      string: '[{"breeds":[],"id":"MTc4NDg3Nw","url":"https://cdn2.thecatapi.com/images/MTc4NDg3Nw.png","width":768,"height":1024}]'
+  recorded_at: Tue, 04 Jan 2022 16:55:12 GMT
+recorded_with: VCR 6.0.0

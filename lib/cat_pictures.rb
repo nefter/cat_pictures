@@ -2,6 +2,7 @@
 
 require_relative "cat_pictures/version"
 require_relative "cat_pictures/client"
+require_relative "cat_pictures/image"
 
 module CatPictures
   class Error < StandardError; end
@@ -9,28 +10,28 @@ module CatPictures
   class ServerError < Error; end
 
   def self.images
-    [{}]
+    Images.new.all
   end
 
-  def self.image(_id)
-    {}
-  end
+  # def self.image(_id)
+  #   Images.new.find(_id)
+  # end
 
-  def self.breeds
-    [{}]
-  end
+  # def self.breeds
+  #   Images.new.all
+  # end
 
-  def self.breed(_id)
-    {}
-  end
+  # def self.breed(_id)
+  #   Images.new.find(_id)
+  # end
 
-  def self.categories
-    [{}]
-  end
+  # def self.categories
+  #   Images.new.find(_id)
+  # end
 
-  def self.category(_id)
-    {}
-  end
+  # def self.category(_id)
+  #   Images.new.find(_id)
+  # end
 
   # def self.votes
   #   [{}]
