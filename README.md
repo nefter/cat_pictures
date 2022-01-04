@@ -1,6 +1,7 @@
 # CatPictures
 
 Api wrapper of [TheCatApi](https://thecatapi.com)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -19,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use this gem, calling a method of TheCatApi
+```ruby
+CatPictures.images
+``` 
 
 ## Development
 
